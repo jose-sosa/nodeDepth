@@ -1,12 +1,6 @@
 $(document).ready(function() {
 
 document.getElementById("node-button").addEventListener("click", checkForNode);
-// let A = document.getElementById("node-A");
-// let B = document.getElementById("node-B");
-// let C = document.getElementById("node-C");
-// let D = document.getElementById("node-D");
-// let E = document.getElementById("node-E");
-// let F = document.getElementById("node-F");
 
 function checkForNode() {
     let maybeNode = document.getElementById("user-input").value;
